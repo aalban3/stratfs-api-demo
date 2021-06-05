@@ -25,7 +25,7 @@ export default function Main() {
   }, []);
 
   if (error) {
-    // Loading indicator
+    // Error message
     return (
       <div className="error">
         <strong>Something went wrong, couldn&apos;t fetch data.</strong>
