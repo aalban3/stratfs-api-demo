@@ -1,0 +1,69 @@
+/* LOADER AND ERROR SCREENS*/
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.error strong {
+  font-size: 32px;
+}
+
+/* TABLE */
+.table {
+  height: 100vh;
+  width: 30%;
+  margin: auto;
+  margin-top: 10rem;
+}
+
+/* FOOTER */
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+}
+.total {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: dodgerblue;
+  margin-top: 2rem;
+  height: 3rem;
+}
+.total strong {
+  color: aliceblue;
+  font-size: 18px;
+}
+.row-count {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  align-self: center;
+}
+
+.row-count strong {
+  margin-right: 3rem;
+  font-size: 16px;
+}
+.footer-buttons {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.footer-buttons button {
+  margin-right: 1rem;
+}

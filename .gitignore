@@ -1,0 +1,10 @@
+node_modules
+.env
+.DS_Store
+bundle.js
+dist
+*.code-workspace
+.vscode
+public/bundle.js
+public/bundle.js.map
+public/bundle.js.LICENCE.text
